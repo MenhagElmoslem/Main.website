@@ -211,7 +211,7 @@ blockquote em {
   .social-icons {
     display: flex;
     justify-content: center;
-    gap: 15px; /* مسافة بين الأيقونات */
+    gap: 10px; /* مسافة بين الأيقونات */
     margin: 20px 0;
   }
   
@@ -221,13 +221,17 @@ blockquote em {
     justify-content: center;
     text-decoration: none;
     color: #fff; /* لون الأيقونة */
-    font-size: 20px; /* حجم الأيقونة */
+    font-size: 25px; /* حجم الأيقونة */
     width: 40px;
     height: 40px;
     border-radius: 50%; /* يجعل الأيقونة دائرية */
     transition: all 0.3s ease;
   }
   
+
+ .youtube-icon {
+    background-color: #FF0000; /* اللون الرسمي ليوتيوب */
+}
   .facebook-icon {
     background-color: #1877F2; /* لون فيسبوك */
   }
@@ -244,6 +248,51 @@ blockquote em {
     opacity: 0.8; /* تأثير شفاف عند التمرير */
     transform: scale(1.1); /* تأثير التكبير */
   }
+
+/* تنسيق الأيقونة */
+.kwai-icon {
+    display: inline-block;
+    width: 50px;  /* عرض الأيقونة */
+    height: 50px; /* ارتفاع الأيقونة */
+    border-radius: 50%;  /* جعل الأيقونة دائرية */
+    overflow: hidden;  /* إخفاء أي جزء يتجاوز الأيقونة الدائرية */
+}
+
+.kwai-icon-img {
+    width: 100%;  /* ملء المساحة المخصصة للأيقونة */
+    height: 100%; /* ملء المساحة المخصصة للأيقونة */
+    object-fit: cover; /* الحفاظ على النسب بشكل جيد */
+}
+
+
+/* تنسيق الأيقونة */
+.instagram-icon {
+    display: inline-block;
+    width: 50px;  /* عرض الأيقونة */
+    height: 50px; /* ارتفاع الأيقونة */
+    border-radius: 50%;  /* جعل الأيقونة دائرية */
+    overflow: hidden;  /* إخفاء أي جزء يتجاوز الأيقونة الدائرية */
+}
+
+.instagram-icon-img {
+    width: 100%;  /* ملء المساحة المخصصة للأيقونة */
+    height: 100%; /* ملء المساحة المخصصة للأيقونة */
+    object-fit: cover; /* الحفاظ على النسب بشكل جيد */
+}
+
+
+/* لون خلفية تيك توك */
+.tiktok-icon {
+    background-color: #000000; /* اللون الرسمي لتيك توك */
+}
+  
+  .social-icons a:hover {
+    opacity: 0.8; /* تأثير شفاف عند التمرير */
+    transform: scale(1.1); /* تأثير التكبير */
+  }
+
+
+
   
   /* الروابط الاجتماعية */
 .social-links {
@@ -271,8 +320,18 @@ blockquote em {
 /* النص تحت الأيقونات */
 .social-item p {
     margin-top: 10px;
-    font-size: 11px;
+    font-size: 14px;
     color: #555;
     font-weight: bold;
 }
 
+/* الفوتر */
+footer {
+    margin-top: 20px;
+    background-color: #4c7aaf;
+    color: white;
+    padding: 10px 0;
+    border-radius: 8px;
+    font-size: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
